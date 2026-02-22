@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Vector Space Basis Generator</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="basis.js">
+</script>
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#52918C">
+
+<p>
+<img src="../potpourri.jpg" alt="Blue Tulip" width="550">
+<table bgcolor="#201641" width="100%">
+<tr><td width="100">&nbsp;<td width="100"><a href="../home.html">Home</a>
+<td width="100">&nbsp;
+<!--<td width="100"><a href="http://forum.bluetulip.org/">Forums</a>-->
+<td width="100"><a href="../drawing/index.html">Drawing</a>
+<td width="100"><a href="../potpourri.html">Potpourri</a>
+<!--<td width="100"><a href="music/index.html">Music</a>--><td></table>
+<p>
+<table align="center" bgcolor="#52918C" cellpadding="0" cellspacing="0" border="0">
+<tr><td><center>
+<b><font size=+2>Vector Space Basis Generator</font></b>
+<p>
+Choose a vector space from the drop-down menu, and it will generate a basis for that vector space.
+<p>
+If you like, add a set of linearly independent vectors in the uppermost box
+<br>(using parenthesis to delineate vectors and commas to distinguish coordinates; please use decimal form even for rationals), and it will include those in the basis.
+<p>
+<form name="myForm" action="" method="get">
+<select name="space">
+<option value="R1">R</option>
+<option value="R2">R^2</option>
+<option value="R3">R^3</option>
+<option value="R4">R^4</option>
+<option value="Q1">Q</option>
+<option value="Q2">Q^2</option>
+<option value="Q3">Q^3</option>
+<option value="Q4">Q^4</option>
+</select>
+<input type="button" name="buttonr" value="Submit" onClick="basis(this.form)"><br>
+<input type="text" name="inputbox" value="" size="80">
+<p>
+<textarea rows="6" cols="80" name="resultbox" readonly>
+</textarea>
+</form>
+<p>For tech support or suggestions for expansions, contact me at kate at bluetulip dot org. Enjoy! :)
+</center>
+</table><p>
+<table width="100%" bgcolor="#201641">
+<td width="300">&nbsp;
+<td width="100"><a href="../listen/001.html">Listen!: First</a>
+<td width="100"><a href="../index.html">Current</a>
+</table>
+<p>&nbsp;
+</body>
+</html>
